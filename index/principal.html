@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0a7f6dde6f.js" crossorigin="anonymous"></script>
+    <title>Ahorcado</title>
+</head>
+<body id="fondo">
+    <!--<section class="container_sound">
+        <div class="sound" id="music">
+            <i class="fa-solid fa-volume-high " id="option"></i>
+        </div>
+    </section>-->
+    <section id="contain__old__option" class="contain__old__option2">
+        
+            <div class="contain__buttons">
+                <button type="button" id="op1" class="buttons">Empezar juego</button>
+                <button type="button" id="op2" class="buttons">ingrezar palabra</button>
+            </div>
+    
+    </section>
+    <section class="remover" id="the_game">
+        <section class="concatianer_ahorcado">
+            <div class="canka">
+                <canvas width="600" height="400"></canvas>
+            </div>
+            <div id="contain_palbras">
+                <p id="palabra" class="estilox"></p>
+                <p id="letra"class="estilox"></p>
+            </div>
+        </section>
+        <section>
+            <div class="contain_options">
+                <button type="button" id="new" class="buttons">cambio de palabra</button>
+                <button type="button" id="exit" class="buttons">abandonar</button>
+            </div>
+        </section>
+    </section>
+    <section id="contain__otras__opciones" class="remover">
+        <div class="contain__nueva_palabra">
+            <input type="text" id="valor" placeholder="ingrese una palabra" class="ingrsar_palabra">
+        </div>
+        <div class="contain_options">
+            <button type="button" id="guardar" class="buttons">guardar y empezar</button>
+            <button type="button" id="cancelar" class="buttons">cancelar</button>
+        </div>
+    </section>
+</body>
+<script src="../js/principal.js" type="module"> </script>
+<script src="../js/ahorcado.js" > </script>
+<script src="../js/confetti.js"></script>
+</html>
